@@ -62,6 +62,19 @@ class _HomePageState extends State<HomePage> {
                //     ),
                //   ),
                // ),
+               Padding(
+                 padding: const EdgeInsets.only(left: 12.0),
+                 child: Text("hello Morning",
+                   style: GoogleFonts.poppins(
+                     textStyle: const TextStyle(
+                         fontWeight: FontWeight.w600,
+                         color: Color(0xFF3C3C3C)
+                     ),
+                     fontSize: 20,
+
+                   ),
+                 ),
+               ),
 
                const Padding(
                  padding: EdgeInsets.only(right: 12.0),
